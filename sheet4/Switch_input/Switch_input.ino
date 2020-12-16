@@ -22,9 +22,9 @@ void loop() {
  }
  for(int i = 1;i<5;i++){
     if(i==mode){
-      digitalWrite(i-1,HIGH);
+      digitalWrite(LEDs[i-1],HIGH);
     }else{
-      digitalWrite(i-1,LOW);
+      digitalWrite(LEDs[i-1],LOW);
     }
  }
 }
